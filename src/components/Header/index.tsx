@@ -1,8 +1,7 @@
 import React from 'react';
 import StyledHeader from './styles';
 import LOGO_PATH from '@assets/images/Rick_and_Morty.svg';
-
-const RICK_AND_MORTY_LOGO_ALT = 'Rick and Morty logo';
+import RICK_AND_MORTY_LOGO_ALT from '@constants/logoAltText';
 
 const Header: React.FC = () => {
   return (

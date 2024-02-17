@@ -5,7 +5,7 @@ const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: ${baseTheme.sizes.spaces[5]};
+  height: ${baseTheme.sizes.header.height};
   background-color: ${baseTheme.colors.itemsBG};
   border-bottom-right-radius: ${baseTheme.sizes.spaces[0]};
   border-bottom-left-radius: ${baseTheme.sizes.spaces[0]};

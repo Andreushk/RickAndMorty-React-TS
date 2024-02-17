@@ -11,12 +11,19 @@ const baseTheme = {
       '26px', // 2
       '35px', // 3
       '70px', // 4
-      '95px', // 5
-      '200px', // 6
-      '230px', // 7
-      '250px', // 8
-      '1440px', // 9
+      '200px', // 5
+      '230px', // 6
+      '1440px', // 7
     ],
+    header: {
+      height: '95px',
+    },
+    footer: {
+      height: '250px',
+    },
+    footerImage: {
+      width: '420px',
+    },
   },
   durations: {
     styleAnimations: ['0.3s'],
