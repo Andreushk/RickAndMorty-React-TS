@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import baseTheme from './theme';
 
 export default createGlobalStyle`
   * {
@@ -9,7 +10,7 @@ export default createGlobalStyle`
 
   body {
     position: relative;
-    background-color: #E5E5E5;
+    background-color: ${baseTheme.colors.bodyBG};
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-family: "Rubik", Arial, Helvetica, sans-serif;
   }

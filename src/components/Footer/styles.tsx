@@ -6,12 +6,20 @@ export const StyledFooter = styled.footer`
   align-items: center;
   justify-content: center;
   background-color: ${baseTheme.colors.itemsBG};
-  height: ${baseTheme.sizes.footer.height};
-  border-top-left-radius: ${baseTheme.sizes.spaces[0]};
-  border-top-right-radius: ${baseTheme.sizes.spaces[0]};
+  height: 14.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+  @media (${baseTheme.media.tabletMedium}) {
+    border-radius: 0;
+  }
 `;
 
 export const StyledLogoImage = styled.img`
-  width: ${baseTheme.sizes.footerImage.width};
+  width: 14.5rem;
   height: auto;
+
+  @media (${baseTheme.media.tabletSmall}) {
+    width: 80%;
+  }
 `;

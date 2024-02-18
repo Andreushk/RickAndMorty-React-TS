@@ -5,10 +5,14 @@ const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: ${baseTheme.sizes.header.height};
+  height: 6rem;
   background-color: ${baseTheme.colors.itemsBG};
-  border-bottom-right-radius: ${baseTheme.sizes.spaces[0]};
-  border-bottom-left-radius: ${baseTheme.sizes.spaces[0]};
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+
+  @media (${baseTheme.media.tabletMedium}) {
+    border-radius: 0;
+  }
 `;
 
 export default StyledHeader;
