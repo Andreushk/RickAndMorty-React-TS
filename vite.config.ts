@@ -10,6 +10,8 @@ export default defineConfig({
       '@styles': path.resolve(__dirname, './src/styles'),
       '@constants': path.resolve(__dirname, './src/constants'),
       '@hoc': path.resolve(__dirname, './src/hoc'),
+      '@common': path.resolve(__dirname, './src/components/common'),
+      '@responsesTypes': path.resolve(__dirname, './src/types'),
     },
   },
 });

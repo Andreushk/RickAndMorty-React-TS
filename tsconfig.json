@@ -10,10 +10,11 @@
       "@assets/*": ["src/assets/*"],
       "@styles/*": ["src/styles/*"],
       "@constants/*": ["src/constants/*"],
-      "@hoc/*": ["src/hoc/*"]
+      "@hoc/*": ["src/hoc/*"],
+      "@common/*": ["src/components/common/*"],
+      "@responsesTypes/*": ["src/types/*"]
     },
 
-    /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
@@ -21,7 +22,6 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
