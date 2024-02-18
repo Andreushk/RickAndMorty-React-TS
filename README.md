@@ -1,18 +1,25 @@
 # RickAndMorty-React-TS
 
 ## About
-This was a test task for the IT Bootcamp. But, now, I decided to update my solution and once again practice my skills with TypeScript and Redux. 
-So, this is a simple React/TypeScript application that allows you to view information about all the characters from the movie "Rick and Morty". 
+
+This is a test assignment for IT Bootcamp at the summer 2023. But now I decided to renovate my solution with using of TypeScript and try playing around with Ky for requests (lightweight library) and Vite for builds. So it is a simple React/TypeScript application that allows to view information about all characters from the «Rick and Morty» series.
 
 ## Stack
+
 - React
-- Redux
+- Ky
 - TypeScript
 - StyledComponents
 - Vite
 
 ## API:
+
 The Rick and Morty API: [https://rickandmortyapi.com](https://rickandmortyapi.com).
 
+## Deploy:
+
+This application is available for viewing on Vercel: [https://rick-and-morty-react-ts.vercel.app](https://rick-and-morty-react-ts.vercel.app/).
+
 ## More
+
 I also have a pure JavaScript implementation here: https://github.com/Andreushk/RickAndMorty-JavaScript.
